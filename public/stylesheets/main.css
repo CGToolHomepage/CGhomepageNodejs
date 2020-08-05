@@ -1,0 +1,179 @@
+
+.header{
+    height: 100px;
+
+}
+
+.LoginDiv{
+    border-bottom: 1px solid gray;
+}
+
+.logo{
+    float: left;
+}
+
+#categoryDown {
+    height: 100%;
+    float:left;
+    width: 100%;
+}
+
+.searchBar {
+    float: left;
+    border: solid 5px rgb(0, 255, 255);
+    height: 50px;
+    width: 50%;
+    border-radius : 60px;
+    
+}
+input[type="text"]{
+    height: 30px;
+    border: none;
+    margin-left: 20px;
+    width: 85%;
+    font-size: 24px;
+}
+
+button{
+    background-color: #ffffff;
+    border: none;
+    vertical-align: bottom;
+    width:40px;
+    height:40px;
+
+}
+
+#searchICon{
+    margin-top:3px;
+    border: none;
+    width:40px;
+    height:40px;
+    
+}
+
+.menu{
+    border-top: 1px solid rgb(85, 85, 85);
+    height:50px;
+    border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+
+
+
+
+#categoryFirst {
+    float: left;
+    background-color: rgb(85, 85, 85);
+    border-left:1px solid rgb(85, 85, 85);
+    width: 200px;
+    height: 50px;
+    text-indent: 1em;
+    color:white;
+    font-family :Sans-Serif;
+    font-size : 25px;
+    border-bottom :solid 1px white;
+
+}
+
+.categoryDown {
+    background-color: rgb(85, 85, 85);
+    border-left:1px solid rgb(85, 85, 85);
+    width: 200px;
+    height: 50px;
+    text-indent: 1em;
+    color:white;
+    font-family :Sans-Serif;
+    font-size : 25px;
+    border-top :solid 1px white; 
+
+}
+a {
+    text-decoration: none !important;
+}
+
+.categoryMenu {
+    float:left;
+    color :black;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    font-family :Sans-Serif;
+    text-indent: 1em;
+    text-decoration: initial;
+    border-right:1px solid rgb(85, 85, 85);
+    background-color: deepskyblue;
+}
+
+
+.productCategory {
+    float: none;
+    margin-top: 25px;
+    font-size: 25px;
+    color : black;
+    text-indent: 1em ;
+}
+
+
+.jumbotron {
+    background-color: white !important;
+}
+
+main {
+    height: 2000px;
+}
+
+.product {
+
+    float: left;
+    margin: 10px;
+    color: black;
+    height: 200px;
+}
+
+.productImg > img {
+    
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    width: 100% !important;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+#toolCategory {
+    float: left;
+}
+
+.productBox {
+    margin-top: 100px;
+    height: 700px;
+    background-color: dimgray;
+}
+
+.mainPanel{
+    height: 350px;
+}
+
+#sidePreview {
+    margin-top: 150px;
+    position: absolute;
+    width: 200%;
+    height: 350px;
+    left:-50%;
+    background-image: url(preview.jpg);
+    z-index: -2;
+    background-color:black;
+}
+
+#mainPreview {
+    background-image: url(preview.jpg);
+    background-color: blue;
+    width: 100%;
+    height: 405px;
+}
