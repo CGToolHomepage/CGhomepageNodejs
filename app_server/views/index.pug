@@ -1,0 +1,75 @@
+extends layout
+
+block content
+  .container
+    .jumbotron
+      .header
+        img(src="images/cg.jpg", alt="청계천", style='width:50px; height:50px; float:left;margin-left:100px;')
+        a(href="" style="font-size: 40px; color: rgb(51, 0, 255); float:left;")= title
+        .searchBar(style='margin-left:100px;')
+          input(type="text" id="searchThing" name="searchThing")
+          button
+            img(src="images/searchICon.png", alt="검색", style='width:20px; height:20px;')
+
+      .myInfo
+        .menu
+          a(href="")
+            #categoryFirst 카테고리
+
+          a(href="")
+            .categoryMenu
+              strong 호스 맞춤제작
+
+          a(href="")
+            .categoryMenu
+              strong 메뉴
+      
+          .mainPanel
+            #categoryDown
+              #toolCategory
+                a(href="")
+                  .categoryDown 공구종류
+                a(href="")
+                  .categoryDown 공구종류
+                a(href="")
+                  .categoryDown 공구종류
+                a(href="")
+                  .categoryDown 공구종류
+                a(href="")
+                  .categoryDown 공구종류
+                a(href="")
+                  .categoryDown 공구종류
+                a(href="")
+                  .categoryDown 공구종류
+            #mainPreview
+          
+          .productBox
+            .productCategory 추천 상품
+            a(href="")
+              .product
+                .productImg
+                  img(src="images/cg.jpg", alt="예시", style="width:200px; height:200px;")
+                .productName 김
+            a(href="")
+              .product
+                .productImg
+                  img(src="images/cg.jpg", alt="예시", style="width:200px; height:200px;")
+                .productName 김
+            a(href="")
+              .product
+                .productImg
+                  img(src="images/cg.jpg", alt="예시", style="width:200px; height:200px;")
+                .productName 김
+            a(href="")
+              .product
+                .productImg
+                  img(src="images/cg.jpg", alt="예시", style="width:200px; height:200px;")
+                .productName 김
+            a(href="")
+              .product
+                .productImg
+                  img(src="images/cg.jpg", alt="예시", style="width:200px; height:200px;")
+                .productName 김
+                
+
+              
